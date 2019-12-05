@@ -1,0 +1,55 @@
+clubs_club:
+    resource: "@clubsBundle/Resources/config/routing/club.yml"
+    prefix:   /club
+events_homepage:
+    path:     /a
+    defaults: {_controller: clubsBundle:Default:index}
+
+clubs:
+    path:     /clubs
+    defaults: {_controller: clubsBundle:Club:index}
+club_index:
+    path:     /
+    defaults: { _controller: "clubsBundle:Club:index" }
+    methods:  GET
+
+club_show:
+    path:     /{idClub}/show
+    defaults: { _controller: "clubsBundle:Club:show" }
+    methods:  GET
+
+club_new:
+    path:     /new
+    defaults: { _controller: "clubsBundle:Club:new" }
+    methods:  [GET, POST]
+
+club_edit:
+    path:     /{idClub}/edit
+    defaults: { _controller: "clubsBundle:Club:edit" }
+    methods:  [GET, POST]
+
+club_delete:
+    path:     /{idClub}/delete
+    defaults: { _controller: "clubsBundle:Club:delete" }
+    methods:  DELETE
+inscription:
+    path:     /inscription/{id}
+    defaults: { _controller: "clubsBundle:Club:inscription" }
+    methods:  [GET, POST]
+
+desinscription:
+    path:     /desinscription/{id}
+    defaults: { _controller: "clubsBundle:Club:desinscription" }
+    methods:  [GET, POST]
+club:
+    path:     /c
+    defaults: { _controller: "clubsBundle:Club:clubs" }
+    methods:  GET
+shart:
+    path:     /shart
+    defaults: { _controller: "clubsBundle:Club:shart" }
+list:
+    path:     /list
+    defaults: { _controller: "clubsBundle:Club:list" }
+
+
