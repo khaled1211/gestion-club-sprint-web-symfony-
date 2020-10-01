@@ -27,11 +27,7 @@ class AppKernel extends Kernel
             new Sonata\AdminBundle\SonataAdminBundle(),
             new CMEN\GoogleChartsBundle\CMENGoogleChartsBundle(),
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
-            
-
-
-
-
+            new Inscription\InscriptionBundle\InscriptionInscriptionBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

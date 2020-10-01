@@ -1,0 +1,25 @@
+{% extends 'index3.html.twig' %}
+
+{% block events %}
+    <table class="table table-bordered table-striped" cellspacing="0" id="tableac" border="2">
+       <tr>
+           <th  border: 1px solid black;
+                padding: 10px;>NOM CLUB</th>
+           <th  border: 1px solid black;
+                padding: 10px;>DOMAINE</th>
+
+       </tr>
+
+        {% for q in query %}
+
+            <tr>
+              <td>{{ q.club.nomClub}}</td>
+                <td>{{ q.club.domaineClub}}</td>
+
+            </tr>
+        {% endfor %}
+    </table>
+
+
+
+{% endblock %}

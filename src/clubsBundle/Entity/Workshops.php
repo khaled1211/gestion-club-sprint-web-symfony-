@@ -3,6 +3,8 @@
 namespace clubsBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 /**
  * Workshops
@@ -25,6 +27,7 @@ class Workshops
      * @var string
      *
      * @ORM\Column(name="nom_club", type="string", length=255, nullable=false)
+     * @Assert\Regex(pattern="/[A-Za-z]$/", message="saisie une chaine de charactere")
      */
     private $nomClub;
 

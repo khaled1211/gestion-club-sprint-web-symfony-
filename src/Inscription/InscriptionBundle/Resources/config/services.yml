@@ -1,0 +1,4 @@
+services:
+#    inscription_inscription.example:
+#        class: Inscription\InscriptionBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

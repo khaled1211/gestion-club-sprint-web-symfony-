@@ -1,10 +1,9 @@
 <?php
 
-namespace clubsBundle\Entity;
+namespace Inscription\InscriptionBundle\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Club
@@ -109,7 +108,7 @@ class Club
     {
         $this->placedesponibleClub = $placedesponibleClub;
     }
-     /**
+    /**
      * @ORM\OneToMany(targetEntity="Inscriptionc", mappedBy="club")
      */
     private $inscriptions;
@@ -138,4 +137,5 @@ class Club
 
 
 }
+
 

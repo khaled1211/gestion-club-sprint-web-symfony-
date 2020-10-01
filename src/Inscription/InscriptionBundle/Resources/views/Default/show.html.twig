@@ -1,0 +1,48 @@
+{% extends 'index3.html.twig' %}
+
+{% block events %}
+    <h1>Club</h1>
+
+
+
+
+    <table class="table table-bordered table-striped" cellspacing="0" id="tableac" border="2">
+        <thead class="black white-text">
+
+
+        <tr>
+            <th>Nomclub</th>
+            <td>{{ club.nomClub }}</td>
+        </tr>
+        <tr>
+            <th  border: 1px solid black;
+                 padding: 10px;>Domaineclub</th>
+            <td  border: 1px solid black;
+                 padding: 10px;>{{ club.domaineClub }}</td>
+        </tr>
+        <tr>
+            <th  border: 1px solid black;
+                 padding: 10px;>Placedesponibleclub</th>
+            <td  border: 1px solid black;
+                 padding: 10px;>{{ club.placedesponibleClub }}</td>
+        </tr>
+        </tbody>
+
+    </table>
+
+
+
+            <a class="btn btn-info" href="{{ path('club_index') }}">liste_clubs</a>
+    {% if app.user is not null %}
+        {% if club.idClub in inss %}
+            <td>
+                <a class="btn btn-info" href="{{ path('desinscription', { 'id':club.idClub }) }}">Se désinscrire</a>
+            </td>
+        {% else %}
+            <td>
+                <a class="btn btn-info" href="{{ path('inscription', { 'id':club.idClub }) }}">S'inscrire</a>
+            </td>
+        {% endif %}
+    {% endif %}
+
+{% endblock %}

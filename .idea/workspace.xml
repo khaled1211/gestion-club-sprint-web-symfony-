@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e84233f-b281-4cb7-875d-98f14cfdaa3a" name="Default Changelist" comment="" />
+    <list default="true" id="4e84233f-b281-4cb7-875d-98f14cfdaa3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/Default/clubs.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/clubs.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/liste.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/shart.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inscription/InscriptionBundle/Resources/views/club/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/index3.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/index3.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clubsBundle/Entity/Club.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/clubsBundle/Entity/Club.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clubsBundle/Entity/Workshops.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/clubsBundle/Entity/Workshops.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clubsBundle/Resources/views/club/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/clubsBundle/Resources/views/club/index.html.twig" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +34,9 @@
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="cc6fbb17-2c33-43ff-a9d4-f8acddc2f3af" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -98,9 +122,12 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TiWHE3sz0CJH7ePYGbi63AlGuw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../piDev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../piDevEvents1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,11 +139,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\piDevEvents\src\Inscription\InscriptionBundle\Resources\views\Default" />
+      <recent name="C:\wamp64\www\piDevEvents\src\Inscription\InscriptionBundle\Resources\views" />
       <recent name="C:\wamp64\www\piDevEvents\src\clubsBundle\Resources\views\club" />
       <recent name="C:\wamp64\www\piDevEvents\web" />
       <recent name="C:\wamp64\www\piDevEvents\src\clubsBundle\Resources\views\Default" />
-      <recent name="C:\wamp64\www\piDevEvents\app\Resources\views" />
-      <recent name="C:\wamp64\www\piDevEvents\src\clubsBundle\Resources\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\piDevEvents\src\clubsBundle\Resources\views" />
@@ -129,6 +156,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="c update" />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:mapping:import" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -143,11 +172,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.piDevEvents">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="piDevEvents" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.piDevEvents" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -188,10 +226,49 @@
       <workItem from="1575372592052" duration="5108000" />
       <workItem from="1575489933425" duration="2033000" />
       <workItem from="1575501049901" duration="13000" />
+      <workItem from="1575516676527" duration="1662000" />
+      <workItem from="1575530323875" duration="3825000" />
+      <workItem from="1576598238512" duration="1768000" />
+      <workItem from="1577043378313" duration="1569000" />
+      <workItem from="1577124774287" duration="1733000" />
+      <workItem from="1578588822960" duration="7137000" />
+      <workItem from="1578612195974" duration="796000" />
+      <workItem from="1578647663544" duration="152000" />
+      <workItem from="1578649973205" duration="1201000" />
+      <workItem from="1581262763297" duration="315000" />
+      <workItem from="1581957052612" duration="10487000" />
+      <workItem from="1581974892333" duration="1183000" />
+      <workItem from="1582131815990" duration="9613000" />
+      <workItem from="1582200878610" duration="5119000" />
+      <workItem from="1582233875208" duration="261000" />
+      <workItem from="1582235064366" duration="7530000" />
+      <workItem from="1582484204679" duration="622000" />
+      <workItem from="1582582693815" duration="1083000" />
+      <workItem from="1582652903897" duration="2994000" />
+      <workItem from="1582723418357" duration="6527000" />
+      <workItem from="1586525648884" duration="791000" />
+      <workItem from="1587308139534" duration="6000" />
+      <workItem from="1587945509847" duration="573000" />
+      <workItem from="1601575932321" duration="272000" />
+      <workItem from="1601576219550" duration="1189000" />
+      <workItem from="1601579696002" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

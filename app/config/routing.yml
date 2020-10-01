@@ -1,3 +1,7 @@
+inscription_inscription:
+    resource: "@InscriptionInscriptionBundle/Resources/config/routing.yml"
+    prefix:   /
+
 clubs:
     resource: "@clubsBundle/Resources/config/routing.yml"
     prefix:   /

@@ -1,0 +1,3 @@
+aa_homepage:
+    path:     /
+    defaults: { _controller: AABundle:Default:index }

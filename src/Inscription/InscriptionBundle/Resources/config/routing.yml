@@ -1,0 +1,11 @@
+inscription_inscription_homepage:
+    path:     /
+    defaults: { _controller: InscriptionInscriptionBundle:Default:index }
+inscription:
+    path:     /inscription/{id}
+    defaults: { _controller: "InscriptionInscriptionBundle:Default:inscription" }
+    methods:  [GET, POST]
+club:
+    path:     /c
+    defaults: { _controller: "InscriptionInscriptionBundle:Default:clubs" }
+    methods:  GET

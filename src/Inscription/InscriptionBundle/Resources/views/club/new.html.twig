@@ -1,0 +1,16 @@
+{% extends 'index3.html.twig' %}
+
+{% block events %}
+    <h1>Club creation</h1>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type="submit" value="Create" />
+    {{ form_end(form) }}
+
+    <ul>
+        <li>
+            <a href="{{ path('club_index') }}"><input type="submit"value="liste_clubs"></a>
+        </li>
+    </ul>
+{% endblock %}
